@@ -7,6 +7,31 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hamburguer{
+    
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.line{
+width: 100%;
+background-color: white;
+height: .1rem;
+box-shadow: 0.1rem 0.1rem 1px black;
+
+
 }
 
 header{
@@ -58,6 +83,8 @@ header{
     text-shadow: .3rem .4rem 2px rgb(41, 41, 41);
     line-height: .3.5rem;
     margin-bottom: 2rem;
+    animation: moveBanner 1s 0.7 forwards;
+    
 }
 
 .banner p{
@@ -66,6 +93,7 @@ header{
     font-size: 2rem;
     text-shadow: .2rem .2rem rgb(41, 41, 41);
     margin-bottom: 2rem;
+    animation: moveBanner 1s 0.5 forwards;
 }
 
 .banner button{
@@ -82,7 +110,10 @@ header{
     padding-bottom:1rem;
     padding-right:2rem;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    animation: moveBanner 1s 0.7 forwards;
+    margin-top: 3rem;
 
 }
 
@@ -91,3 +122,36 @@ header{
     color:black
 }
 
+@keyframes moveBanner{
+    0%{
+        transform: translateY(10rem) rotateY(-30deg);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
+}
+
+.sidebar{
+   width: 20rem;
+   height: 100vh;
+   background-color: white;
+   position: fixed;
+   top: 0; 
+   right:0;
+}
+
+.menu{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.menu_item{
+    text-align: center;
+}
+.menu_link{
+    
+}

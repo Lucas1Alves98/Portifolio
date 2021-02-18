@@ -23,6 +23,11 @@
 
 <body>
     <div class="container">
+        <div class="hamburguer">
+            <div class="line" id="id"></div>
+            <div class="line" id="id"></div>
+            <div class="line" id="id"></div>
+        </div>
         <header>
             <div class="img-wrapper">
                 <img src="img/bg.jpg" alt="">
@@ -33,6 +38,23 @@
                 <button>Saiba Mais</button>
             </div>
         </header>
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu_item"><a href="" class="menu_link">Home</a></li>
+                    <li class="menu_item"><a href="" class="menu_link">Conhecimento</a></li>
+                    <li class="menu_item"><a href="" class="menu_link">Projetos</a></li>
+                    <li class="menu_item"><a href="" class="menu_link">Contatos</a></li>
+                    <li class="menu_item"><a href="" class="menu_link">Orcamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-github-alt"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a></div>
+        </div>
+
+
     </div>
 </body>
 
