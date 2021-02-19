@@ -23,11 +23,14 @@
 
 <body>
     <div class="container">
+
         <div class="hamburguer">
-            <div class="line" id="id"></div>
-            <div class="line" id="id"></div>
-            <div class="line" id="id"></div>
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
         </div>
+
         <header>
             <div class="img-wrapper">
                 <img src="img/bg.jpg" alt="">
@@ -49,13 +52,16 @@
                 </ul>
             </nav>
             <div class="social-media">
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-github-alt"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a></div>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-github-alt"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
 
 
     </div>
 </body>
+
+<script src="javascript/script.js"></script>
 
 </html>
